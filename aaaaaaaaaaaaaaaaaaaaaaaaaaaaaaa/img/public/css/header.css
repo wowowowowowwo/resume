@@ -1,0 +1,32 @@
+#my_header{
+  background: #CA0B0D;
+  height: 175px;
+  position: relative;
+}
+#headerA{  
+  float: right;
+  position: absolute;
+  left: 38%;
+  top: 27%;
+}
+#my_header img{
+  width: 230px;
+  height: 160px;
+  position: absolute;
+  left: 18%;
+
+}
+#my_header a{
+  text-align: center;
+  padding-bottom: 0;
+  line-height: 35px;
+  width: 102px;
+  font-family: 微软雅黑;
+  float: left;
+  height: 35px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 0;
+}
