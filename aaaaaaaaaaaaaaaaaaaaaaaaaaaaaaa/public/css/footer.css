@@ -1,0 +1,10 @@
+.container{
+  background: #870505;
+  height: 40px;
+  width: 100%;
+  color:#AC5B58;
+  font-size: 12px;
+}
+.container a{
+  color:#AC5B58;
+}

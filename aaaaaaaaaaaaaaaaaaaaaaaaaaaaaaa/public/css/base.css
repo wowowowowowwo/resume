@@ -2,7 +2,12 @@
   margin: 0;
   padding: 0
 }
-.container{
-  width: 100%
+.my_header,.my_footer,.my_footer1{
+  width: 100%;
 }
+header{
+  height: 150px;
+}
+
+
 
