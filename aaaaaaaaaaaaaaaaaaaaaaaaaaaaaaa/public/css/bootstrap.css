@@ -478,8 +478,8 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  max-height: 100%;
 }
 
 .img-thumbnail {

@@ -4,15 +4,21 @@
 .container a{
   text-align: center;
   padding-bottom: 0;
-  line-height: 35px;
-  width: 102px;
+  line-height: 2rem;
+  width: 6.3rem;
   font-family: 微软雅黑;
   float: left;
-  height: 35px;
+  height: 2rem;
   color: #fff;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
   padding-top: 0;
-
 }
+#div1,#div2{
+  padding: 0;
+}
+#div1 img{
+  float: right;
+}
+

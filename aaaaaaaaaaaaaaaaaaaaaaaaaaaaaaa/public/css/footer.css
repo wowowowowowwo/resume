@@ -1,10 +1,16 @@
 .container{
   background: #870505;
-  height: 40px;
+  height: 2.8rem;
   width: 100%;
-  color:#AC5B58;
   font-size: 12px;
+  color:#AC5B58;
+  text-align: center;
+
 }
 .container a{
   color:#AC5B58;
 }
+#font{
+  padding-top: 0.8rem;
+}
+

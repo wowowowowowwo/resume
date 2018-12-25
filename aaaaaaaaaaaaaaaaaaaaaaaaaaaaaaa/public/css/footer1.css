@@ -1,0 +1,27 @@
+.container,a{
+  background: #CA0B0D;
+  color: #fff;
+  font-family: Î¢ÈíÑÅºÚ;
+  font-size: 0.75rem;
+  height: 8.3rem;
+}
+.container p{
+  margin: 0
+}
+.container #div1{
+  float: left;
+  padding: 0;
+}
+#footer1,#footer2{
+ margin-top: 2.5rem;
+}
+#div1 img{
+ float: right;
+}
+#img img{
+  float: right;
+}
+#img{
+  padding-right: 0;
+}
+
