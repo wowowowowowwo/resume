@@ -9,7 +9,6 @@
   <script src="../js/jquery.min.js"></script>
   <script src="../js/popper.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="../css/zoujin.css">
   <link rel="stylesheet" href="../css/base.css">
 </head>
 <body>
@@ -18,11 +17,11 @@
   <header>
     <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
   </header>
-  <div id="my_jieshao" class="row">
+  <div id="zong" class="row">
     <div class="col-md-12">
       <img src="../img/05.jpg" class="img-fluid" alt=""/>
     </div>
-    <div class="col-md-12">
+    <div id="my_jieshao" class="col-md-12">
       <div class="row">
         <div class="col-md-4">
           <div id="guanyu">
@@ -31,7 +30,7 @@
           <div id="jieshao">
             <ul class="border nav flex-column justify-content-start nav-justified" >
               <li class="nav-item">
-                <a class="nav-link" title="公司介绍" href="">公司介绍</a>
+                <a id="a1" class="nav-link" title="公司介绍" href="zoujin.html"><p>公司介绍</p></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" title="领导致辞" href="">领导致辞</a>
@@ -52,6 +51,7 @@
                 <a class="nav-link" title="人力资源" href="">人力资源</a>
               </li>
             </ul>
+            <a href="zhaoshang.html"><img src="../img/36a845b2-b59f-495d-a519-89d2578fdcd7.jpg" class="img-fluid" alt=""/></a>
           </div>
         </div>
         <div class="col-md-8">
@@ -100,13 +100,10 @@
 </div>
 <script src="../js/jquery-1.11.3.js"></script>
 <script>
-  $(".border").hover(
-    function(){//给mouseenter
+  $(".nav-link").hover(
+    function(){
       $(this).toggleClass("hover")
-    }/*,
-     function(){//给mouseleave
-     $(this).toggleClass("hover")
-     }*/
+    }
   )
 </script>
 </body>
