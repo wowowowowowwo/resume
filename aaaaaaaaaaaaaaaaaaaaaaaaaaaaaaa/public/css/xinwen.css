@@ -1,0 +1,10 @@
+.card-header ul{
+    list-style: none;
+    border-top: 0.04rem dashed #000;
+}
+.card-header p{
+    float: left;
+}
+.card-header .p2{
+    float: right;
+}

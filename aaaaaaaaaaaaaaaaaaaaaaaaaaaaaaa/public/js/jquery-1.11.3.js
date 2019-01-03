@@ -10325,8 +10325,7 @@ var
 	_$ = window.$;
 
 jQuery.noConflict = function( deep ) {
-	if ( window.$ === jQuery ) {
-		window.$ = _$;
+	if ( window.$ === jQuery ) window.$ = _$;
 	}
 
 	if ( deep && window.jQuery === jQuery ) {

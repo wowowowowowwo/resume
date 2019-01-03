@@ -57,7 +57,7 @@ footer{
   padding: 1rem;
   background-color: #F4F4F4;
 }
-.nav-link.hover{
+#jieshao .nav-link.hover{
   color: #fff !important;
   background-color:#C0090B;
   width: 10.6rem;
