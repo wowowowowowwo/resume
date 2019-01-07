@@ -4734,14 +4734,14 @@ tbody.collapse.show {
   margin-left: -1px;
   line-height: 1.25;
   color: #007bff;
-  background-color: #fff;
+  background-color: #CB0000;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   color: #0056b3;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: #CB0000;
   border-color: #dee2e6;
 }
 
@@ -4770,7 +4770,6 @@ tbody.collapse.show {
   z-index: 1;
   color: #fff;
   background-color: #007bff;
-  border-color: #007bff;
 }
 
 .page-item.disabled .page-link {
@@ -4800,7 +4799,7 @@ tbody.collapse.show {
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  line-height: 1.5;
+
 }
 
 .pagination-sm .page-item:first-child .page-link {

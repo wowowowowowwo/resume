@@ -5,6 +5,7 @@
 .card-header{
     padding-left: 2rem;
 }
+
 .card-header>ul{
     width: 54rem;
     height: 30rem;
@@ -37,3 +38,84 @@
     background-color: #fff;
     border: 0 !important;
 }
+#zoujin3>.border :nth-child(10){
+    height: 9.3rem !important;
+}
+#zoujin_4{
+    border:0;
+    width:44.6rem;
+    margin-top: 2.5rem;
+    font-size: 0.75rem;
+    height: 28.6rem;
+}
+#zoujin_4>tbody>tr :first-child{
+    text-align: center;
+}
+#zoujin_5{
+    border: 0.06rem solid #808080;
+}
+#zoujin_5 img{
+    height: 12.5rem;
+}
+#zoujin_5 img,#zoujin_5>tbody>tr>td>p{
+    width: 12.5rem;
+    margin: 0.06rem;
+    border: 0.06rem solid #808080;
+}
+#zoujin_6{
+    width: 50.5rem;
+}
+#zoujin_6>tbody>tr>td{
+    text-align: center;
+    width: 15rem;
+}
+#zoujin_6>tbody>tr>td>p>img{
+    width: 10rem;
+    height: 8.8rem;
+}
+#zoujin_6>tbody>tr>td>p{
+    margin-bottom: 0;
+}
+#zoujin_7>table>tbody>tr>td>p{
+    margin-bottom: 0;
+}
+#zoujin_7>table>tbody>tr>td>h2{
+    margin: 0.83rem 0;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+#zoujin_7>table>tbody>tr>td>p{
+    text-align: left;
+}
+#zoujin_7 hr{
+    background-color: #9A9A9A;
+}
+#zoujin_8>p>strong>span{
+    font-size: 9pt;
+}
+#zoujin_8>p>img{
+    width: 400px;
+    height: 400px;
+}
+#zoujin_8>p>embed{
+    text-align: center;
+    width: 25rem;
+    height: 3.1rem;
+}
+#zoujin_8>p{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

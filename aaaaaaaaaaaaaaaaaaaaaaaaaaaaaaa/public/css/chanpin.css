@@ -1,9 +1,12 @@
-#d1 ul{
+#d1>.border{
     background: #fff;
     border:0 !important;
     width: 57.4rem;
     height:68.1rem ;
     padding:0;
+}
+#d1>.chanpin_4{
+    height: 16rem;
 }
 #d1 img{
     width: 16.2rem;
@@ -36,7 +39,9 @@
     border: 0.3rem solid #870505 !important;
 }
 
-
+.fenye>ul>span{
+    line-height: 1.5rem;
+}
 
 .icon img{
     margin-left: -10rem;
@@ -52,5 +57,25 @@
     opacity:1;
 }
 
+
+#d1>.fenye{
+    width: 100%;
+}
+#d1>.fenye>ul{
+    float: right;
+    margin-right: 2rem;
+}
+#d1>.fenye>span{
+    margin-left: 1.5rem;
+}
+#d1>.fenye>ul>span{
+    color: #999999;
+    font-size: 0.75rem;
+}
+
+
+#d1>.xiaomo{
+   height: 37.8rem;
+}
 
 

@@ -1,12 +1,11 @@
 .container{
-  background: #CA0B0D;
+  background-image: url("../img/top.png");
 }
 .container a{
   text-align: center;
   padding-bottom: 0;
   line-height: 2rem;
   width: 6.3rem;
-  font-family: 微软雅黑;
   float: left;
   height: 2rem;
   color: #fff;

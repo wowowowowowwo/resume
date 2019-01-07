@@ -5,6 +5,8 @@
 .my_header,.my_footer,.my_footer1{
   width: 100%;
 }
+header,footer{
+}
 header{
   height: 9.3rem;
 }
@@ -15,7 +17,6 @@ footer{
   padding: 0;
   margin: 0;
 }
-
 
 
 
@@ -79,6 +80,9 @@ footer{
 #gongsi{
   position: relative;
 }
+#gongsi,#gongsi>img{
+  width: 59.8rem;
+}
 #gongsi h1{
   color:#fff;
   font-size: 14px;
@@ -94,7 +98,7 @@ footer{
   background-color: rgba(0, 0, 0, 0);
 }
 .card{
-  width: 60.6rem;
+  width: 59.8rem;
 }
 .card-header p{
   line-height: 24px;
@@ -113,11 +117,11 @@ footer{
   margin-bottom: 0.2rem;
   border:0.04rem dashed #666;
 }
+
 .fenye{
   float: right;
   margin-top: 1.5rem;
   margin-right: 1rem;
-
 }
 .fenye span{
   margin:auto;
@@ -133,9 +137,15 @@ footer{
   padding-right:0.3rem !important;
   padding-top:0.04rem !important;
   padding-bottom:0.04rem !important;
-  margin-right: 0.1rem;
+  margin-right: 0.15rem;
   background-color:#B0B0B0 !important;
   color: #fff !important;
+}
+.fenye>ul>li>a:hover{
+  background-color: #CB0000 !important;
+}
+.fenye>ul>li>#aa{
+  background-color: #CB0000 !important;
 }
 .fenye input{
   width: 1.5rem;
