@@ -1,0 +1,16 @@
+.card-header{
+    vertical-align: middle;
+    margin:0 auto;
+}
+.card-header img{
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+}
+.card-header p{
+    text-align: left;
+    line-height: 32px;
+    font-weight: bold;
+    margin: 0;
+    width: 10rem;
+}

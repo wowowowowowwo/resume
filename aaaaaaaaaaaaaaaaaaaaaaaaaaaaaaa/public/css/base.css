@@ -18,8 +18,14 @@ footer{
 
 
 
+
 #zong{
-  margin-bottom: 1rem;
+   margin-bottom: 1rem;
+   padding-right: 0;
+   margin-right: 0;
+}
+#zong :first-child{
+  padding-right:0;
 }
 #guanyu{
   height: 5.3rem;
@@ -52,6 +58,7 @@ footer{
 }
 #my_jieshao{
   margin-top: 2rem;
+  float: left;
 }
 .border{
   padding: 1rem;
@@ -99,4 +106,55 @@ footer{
 }
 
 
+
+
+.showLine{
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  border:0.04rem dashed #666;
+}
+.fenye{
+  float: right;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+
+}
+.fenye span{
+  margin:auto;
+  height: 2rem;
+}
+.fenye span,.fenye p{
+  color: #999;
+  clear: both;
+  font-size: 0.75rem;
+}
+.fenye li a{
+  padding-left:0.3rem !important;
+  padding-right:0.3rem !important;
+  padding-top:0.04rem !important;
+  padding-bottom:0.04rem !important;
+  margin-right: 0.1rem;
+  background-color:#B0B0B0 !important;
+  color: #fff !important;
+}
+.fenye input{
+  width: 1.5rem;
+  height: 1rem;
+}
+.fenye h3 a {
+  background-color:#CB0000;
+  color: #fff;
+  font-size: 0.75rem;
+}
+.fenye h3{
+  font-size: 14px;
+  font-weight: bold;
+}
+.fenye h3{
+  margin:auto;
+  height: 2rem;
+}
+#zoujin_2{
+  float: right;
+}
 

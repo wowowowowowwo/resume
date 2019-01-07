@@ -1,52 +1,39 @@
-#guanyu{
-    height: 5.3rem;
-    width: 13rem;
-    background: url(../img/tt.jpg);
-    color: #fff;
-    font-size: 22px;
-    font-weight: bold;
-    float: right;
+#zoujin_2{
     margin-right: 2rem;
-}
-
-#guanyu p{
     margin-left: 1rem;
-    margin-top: 1.1rem;
 }
-#jieshao{
-    width:13rem;
-    float: right;
-    margin-top:5.3rem;
-    margin-right: -13rem;
-    font-size: 12px;
+.card-header{
+    padding-left: 2rem;
 }
-#jieshao a{
-    color: #333;
+.card-header>ul{
+    width: 54rem;
+    height: 30rem;
 }
-.border.hover{
-    background-color:#C0090B ;
-    color: #fff;
+#zoujin3>ul>li>p{
+    font-size: 0.75rem;
+    color: #4c4948;
 }
-#gongsi{
-    position: relative;
+#zoujin3>ul>li>a>img{
+    width: 9.12rem;
+    height: 7.3rem;
+    padding:0.3rem !important;
+    border: 0.065rem solid #E1E1E1;
 }
-#gongsi h1{
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    position:absolute;
-    top: 0.55rem;
-    left: 2rem;
+#zoujin3>ul>li>a{
+    width:9.1rem;
+    padding: 0;
+}
+#zoujin3>ul>li>a.hover{
+    padding: 0;
+    background-color: #FFF4CE;
+    border: 0.065rem solid #FF6600;
+}
+#zoujin3>ul>li{
+    height: 8rem;
+    width: 9rem;
 }
 
-.card-header{
-    background-color: rgba(0, 0, 0, 0);
-}
-.card{
-    width: 60.6rem;
-}
-.card-header p{
-    line-height: 24px;
-    color: #333;
-    font-size: 14px;
+#zoujin3>.border{
+    background-color: #fff;
+    border: 0 !important;
 }

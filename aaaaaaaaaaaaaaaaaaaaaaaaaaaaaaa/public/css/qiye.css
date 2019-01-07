@@ -1,0 +1,45 @@
+.card-header img{
+    width:8.75rem ;
+    height: 6.25rem;
+    padding: 0.25rem;
+    border: 0.06rem solid #E6E7E7;
+    line-height: 1.25rem;
+    float: left;
+}
+.list-group-item{
+    border: 0;
+}
+a{
+    color: #333;
+}
+span{
+    font-size:0.75rem;
+    color: #666;
+}
+
+.card-header .z{
+    margin-left: 9.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
