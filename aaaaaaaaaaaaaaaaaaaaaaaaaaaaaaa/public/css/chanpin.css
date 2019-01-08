@@ -75,7 +75,33 @@
 
 
 #d1>.xiaomo{
-   height: 37.8rem;
+   height: 34.5rem;
+    width: 16rem;
 }
 
-
+#d1>.toudao{
+    height: 16rem;
+    width: 10rem;
+}
+.card>.gangtou{
+    border-bottom: 0;
+}
+.card>.gangtou{
+    margin:0 auto;
+}
+.card>.gangtou>img{
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+}
+.card>.gangtou>p{
+    line-height: 0.7rem;
+    font-weight: bold;
+    margin-left: 2.5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+}
+#d1>.lihe{
+    height: 54rem;
+}

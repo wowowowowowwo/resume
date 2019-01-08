@@ -1,10 +1,56 @@
-.card-header ul{
+.card-header>.fenye{
+    width: 100%;
+}
+.card-header>.fenye>ul{
+    float: right;
+    margin-right: -1rem;
+}
+.card-header>.fenye>span{
+    margin-left: 1.5rem;
+}
+.card-header>.fenye>ul>span{
+    color: #999999;
+    font-size: 0.75rem;
+}
+#xinwen{
+    border-top: 0 !important;
+}
+
+.card-header{
+    margin-right: 1.5rem;
+}
+.card-header>#xinwen{
     list-style: none;
     border-top: 0.04rem dashed #000;
 }
-.card-header p{
-    float: left;
+.card-header>#xinwen>li>a,.card-header>#xinwen>li>span{
+    font-size: 0.75rem !important;
+    color: #535353 !important;
 }
-.card-header .p2{
-    float: right;
+.card-header>#xinwen>li>a>span{
+    margin-bottom: 0;
 }
+.card-header>#xinwen>li>span{
+    float:right ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,28 +1,74 @@
-.card-header img{
+.card-header a img{
     width:8.75rem ;
     height: 6.25rem;
-    padding: 0.25rem;
+    padding: 0.25rem !important;
     border: 0.06rem solid #E6E7E7;
     line-height: 1.25rem;
     float: left;
 }
+.card-header a img:hover{
+    background-color: #FFF4CE;
+    border: 0.06rem solid #FF6600;
+}
 .list-group-item{
     border: 0;
 }
-a{
+.card-header a{
     color: #333;
 }
-span{
+.card-header a h3{
+    font-size: 0.87rem;
+    font-weight: bold;
+}
+.card-header li{
+    margin-right: 1rem;
+}
+.card-header span{
     font-size:0.75rem;
     color: #666;
 }
 
 .card-header .z{
-    margin-left: 9.5rem;
+    margin-left:9.8rem;
 }
 
-
-
+.card-header #xiangxi{
+    text-align: center;
+    font-size: 0.75rem;
+}
+.card-header #xiangxi h3{
+    margin-top: 2rem;
+    color: #322725;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.card-header #xiangxi span{
+    color: #999;
+}
+.card-header #xiangxi #t{
+    margin-top: 1.5rem;
+}
+.card-header #xiangxi #t .showLine{
+    margin-right: 1rem;
+}
+.card-header #xiangxi #p{
+    margin-top: 1.5rem;
+    margin-right: 0.5rem;
+    text-align: left;
+}
+.card-header #xiangxi #p p span{
+    font-size: 0.87rem;
+    color: rgb(68, 68, 68);
+    line-height: 23px;
+    background-color: rgb(233, 233, 233);
+}
+.card-header .pre span,.card-header .next span,.card-header .other p{
+    color: #000;
+    font-size: 0.75rem;
+}
+.card-header .pre span a:hover,.card-header .other p a:hover{
+    color: #BC2931;
+}
 
 
 
