@@ -20,7 +20,7 @@
     font-size: 0.87rem;
     font-weight: bold;
 }
-.card-header li{
+.card-header .list-unstyled li{
     margin-right: 1rem;
 }
 .card-header span{
@@ -66,10 +66,15 @@
     color: #000;
     font-size: 0.75rem;
 }
-.card-header .pre span a:hover,.card-header .other p a:hover{
+.card-header .pre span a:hover,.card-header .next span a:hover,.card-header .other p a:hover{
     color: #BC2931;
 }
-
+.card-header .pre,.card-header .next,.card-header .other p{
+    margin-bottom: 0;
+}
+.card-header .other{
+    margin-top: 1rem;
+}
 
 
 

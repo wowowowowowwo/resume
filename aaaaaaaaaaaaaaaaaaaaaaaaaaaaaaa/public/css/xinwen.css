@@ -33,11 +33,52 @@
 .card-header>#xinwen>li>span{
     float:right ;
 }
+.card-header #p p{
+    margin-bottom: 0;
+}
+.xinwen_1_3 #p{
+    width: 14rem;
+    height: 6.56rem;
+    margin-right: 0;
+}
+.xinwen_1_3 #p img,.xinwen_1_4 #p img,.xinwen_1_7 #p img{
+    width: 8.75rem !important;
+    height: 6.65rem !important;
+}
+.xinwen_1_3 #p2{
+    width: 50rem;
+    margin-top: -7rem;
+    float: right;
+}
+.xinwen_1_3 #p3{
+    margin-top: 18rem;
+}
 
+.xinwen_1_4 #p2{
+    margin-top: -6.3rem;
+    float: right;
+}
+.xinwen_1_4 #p2 p{
+    line-height: 1.3rem;
+}
 
-
-
-
+.xinwen_1_4 #p3{
+    margin-top: 4rem;
+}
+.xinwen_1_6 #p p{
+    line-height: 1.375rem;
+    color: #333;
+    font-size: 0.8785rem;
+}
+.xinwen_1_7 #p2{
+    text-align: left;
+    width: 45rem;
+    margin-top: -7rem;
+    float: right;
+}
+.xinwen_1_8 p img{
+    width: 31.25rem;
+}
 
 
 
