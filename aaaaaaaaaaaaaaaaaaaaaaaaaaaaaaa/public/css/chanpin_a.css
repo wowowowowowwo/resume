@@ -1,0 +1,89 @@
+#chanpin_a #pic{
+    float: left;
+}
+#chanpin_a #pic img{
+    margin-left: 1.5rem;
+    width: 19.25rem;
+    height: 16.4rem;
+    border: 0.06rem solid #000;
+}
+#chanpin_a #xiangxi{
+    float: right;
+    margin-top: 1.5rem;
+    margin-right: 11rem;
+}
+#chanpin_a #xiangxi #id{
+    color: #0099FF;
+    font-weight: bold;
+}
+#chanpin_a #xiangxi #number{
+    color: #F39800;
+}
+#chanpin_a #xiangxi p,#kongzhi p{
+    margin-bottom: 0;
+    color: #666464;
+}
+#chanpin_a .zi{
+    color: #231815;
+    text-decoration: none;
+}
+#chanpin_a #kongzhi{
+    clear: left;
+}
+#chanpin_a #kongzhi img{
+    margin-top: 1rem;
+}
+#chanpin_a #kongzhi #aaa{
+    color: #333;
+    font-size: 0.75rem;
+}
+#chanpin_a #kongzhi #aaa:hover{
+    color: #FF6674;
+}
+#chanpin_a #xiaotu{
+    width: 3.75rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 14.5rem;
+}
+#chanpin_a #js ul{
+    width: 100%;
+    height: 2rem;
+    background-color: #dddddd;
+    margin-bottom: 0;
+}
+#chanpin_a #js ul li{
+    width: 6rem;
+    height: 2rem;
+    background-color: #C0090B;
+    text-align: center;
+}
+#chanpin_a #js ul li a{
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+#chanpin_a #table table{
+    width: 18.3rem;
+    height:10.68rem;
+    font-size: 0.9rem;
+}
+#chanpin_a #table table tr td{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
