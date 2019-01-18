@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#my_header{
+    height: 70px;
+}
+.header{
+    position: absolute;
+    z-index: 999;
+}
+.footer{
+    height: 354px;
+}
+.header,#my_index,.footer{
+    width: 100%;
+}
