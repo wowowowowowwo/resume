@@ -15,3 +15,34 @@
 .header,#my_index,.footer{
     width: 100%;
 }
+body{
+     font-size: 14px;
+ }
+p {
+    text-align: justify;
+    line-height: 28px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.clear{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    line-height: 0px;
+    font-size: 1px;
+    clear: both;
+    visibility: hidden;
+}
+img{
+    border: 0px;
+    vertical-align: middle;
+}
+h1{
+    font-style: normal;
+    font-weight: 400;
+    outline: none;
+}
