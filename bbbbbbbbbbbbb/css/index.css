@@ -1,20 +1,20 @@
 
-.home{
+#home{
     width: 1200px;
     margin: 0 auto;
     font-size: 14px;
 }
-.home img{
+#home img{
     border: 0;
     vertical-align: middle;
 }
-.home .home_1{
+#home .home_1{
     text-align: center;
     margin-top: 65px;
     margin-bottom: 20px;
     font-size: 35px;
 }
-.home .home_2{
+#home .home_2{
     text-align: center;
     width: 800px;
     margin: 0 auto;
@@ -99,25 +99,25 @@
 
 
 
-.dongtai{
+#dongtai{
     width: 1200px;
     margin: 0 auto;
     margin-top: 65px !important;
     font-size: 14px;
 }
-.dongtai .dongtai_1{
+#dongtai .dongtai_1{
     text-align: center;
     margin-bottom: 45px !important;
     font-size: 35px;
 }
-.dongtai .dongtai_2 a{
+#dongtai .dongtai_2 a{
     overflow: hidden;
     display: block;
     outline: none;
     text-decoration: none;
     color: #000;
 }
-.dongtai .dongtai_2 .dongtai_img{
+#dongtai .dongtai_2 .dongtai_img{
     width: 600px;
     height: 200px;
     float: left;

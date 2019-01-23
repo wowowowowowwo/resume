@@ -2,17 +2,16 @@
     margin: 0;
     padding: 0;
 }
-#my_header{
+#index_header{
     height: 70px;
 }
-.header{
-    position: absolute;
+.index_header{
     z-index: 999;
 }
 .footer{
     height: 354px;
 }
-.header,#my_index,.footer{
+.index_header,.footer{
     width: 100%;
 }
 body{
@@ -44,5 +43,11 @@ img{
 h1{
     font-style: normal;
     font-weight: 400;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
     outline: none;
 }
