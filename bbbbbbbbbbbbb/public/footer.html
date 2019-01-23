@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../css/base.css"/>
 </head>
 <body>
-<div class="index_footer">
+<div id="index_footer">
     <div class="footer_1">
       <div class="footer_1_1">
         <span>新闻动态</span>
@@ -24,21 +24,33 @@
         <a href="">冷冻点心</a>
       </div>
       <div class="footer_1_2">
-        <span>订购热线</span>
-        <span class="number">86-0631-5925966 5925766</span>
-        <p>山东省威海市经济技术开发区齐鲁大道53号</p>
+        <span>{{span1}}</span>
+        <span class="number">{{span2}}</span>
+        <p>{{p1}}</p>
       </div>
       <div class="footer_1_3">
         <img src="../img/evm.png"> <br>
-        关注佳康微信
+        {{img}}
       </div>
       <s class="clear"></s>
     </div>
     <div class="footer_2">
-      <p>本站部分图片和内容来源于网络，版权归原作者或原公司所有，如果您认为我们侵犯了您的版权请告知我们将立即删除</p>
-      <p>版权所有 威海蓝海传媒有限公司 © Copyright 2017. 5UEC.com . 鲁ICP备17002755号 公安机关备案号：37100202000473</p>
+      <p>{{p2}}</p>
+      <p>{{p3}}</p>
     </div>
   </div>
-</div>
+<script>
+  var vm=new Vue({
+    el:"#index_footer",
+    data:{
+      span1:"订购热线",
+      span2:"86-0631-5925966 5925766",
+      p1:"山东省威海市经济技术开发区齐鲁大道53号",
+      p2:"本站部分图片和内容来源于网络，版权归原作者或原公司所有，如果您认为我们侵犯了您的版权请告知我们将立即删除",
+      p3:"版权所有 威海蓝海传媒有限公司 © Copyright 2017. 5UEC.com . 鲁ICP备17002755号 公安机关备案号：37100202000473",
+      img:"关注佳康微信"
+    }
+  })
+</script>
 </body>
 </html>
