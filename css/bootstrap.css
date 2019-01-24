@@ -5931,22 +5931,14 @@ button.close {
 
 .carousel-control-prev,
 .carousel-control-next {
+  z-index: 11111;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 15%;
-  color: #fff;
-  text-align: center;
-  opacity: 0.5;
+  display: block;
+  width: 63px!important;
+  height: 63px!important;
+  top: 50%;
+  margin-top: -32px;
+  opacity: 0.2;
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
@@ -5956,31 +5948,34 @@ button.close {
   text-decoration: none;
   outline: 0;
   opacity: .9;
+
 }
 
 .carousel-control-prev {
-  left: 0;
+  left: 100px;
 }
 
 .carousel-control-next {
-  right: 0;
+  right: 100px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: transparent no-repeat center center;
-  background-size: 100% 100%;
+  z-index: 11111;
+  position: absolute;
+  display: block;
+  width: 63px!important;
+  height: 63px!important;
+  top: 50%;
+  margin-top: -32px;
 }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("../img/hover_left.png");
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("../img/hover_right.png");
 }
 
 .carousel-indicators {
@@ -6002,16 +5997,19 @@ button.close {
 }
 
 .carousel-indicators li {
-  position: relative;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
-  margin-right: 3px;
-  margin-left: 3px;
-  text-indent: -999px;
-  background-color: rgba(255, 255, 255, 0.5);
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+  background: #FFF;
+  border-radius: 50%;
+  display: inline-block;
+  text-indent: 9999px;
+  opacity: .4;
+  transition: .3s all ease;
+  transform-origin: right top;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .carousel-indicators li::before {
@@ -6035,7 +6033,12 @@ button.close {
 }
 
 .carousel-indicators .active {
-  background-color: #fff;
+  background: #FFF;
+  opacity: 1;
+  width: 40px;
+  border-radius: 100px;
+  display: inline-block;
+  height: 15px;
 }
 
 .carousel-caption {
@@ -6266,10 +6269,10 @@ button.bg-dark:focus {
   border-radius: 50% !important;
 }
 
+
 .rounded-0 {
   border-radius: 0 !important;
 }
-
 .clearfix::after {
   display: block;
   clear: both;
