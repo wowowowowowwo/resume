@@ -176,12 +176,133 @@
     overflow: hidden;
     text-align: justify;
 }
-.dongtai_2 a:nth-child(2) .dongtai_img {
+#dongtai .dongtai_2 a:nth-child(2) .dongtai_img {
     float: right;
 }
-.dongtai_2 a:nth-child(2) .dongtai_2_1 {
+#dongtai .dongtai_2 a:nth-child(2) .dongtai_2_1 {
     float: left;
 }
+#dongtai .dongtai_2 a:last-child .dongtai_img{
+    margin-bottom: 70px;
+}
+
+
+
+.h_cp {
+    background: url(../img/H_cp.jpg) center center no-repeat;
+    height: 1025px;
+    margin-top: 95px;
+}
+.h_cp_n_T_img {
+    float: left;
+}
+.h_cp_n_T {
+    overflow: hidden;
+    padding-top: 90px;
+}
+.h_cp_n_T_tit {
+    float: right;
+}
+.h_cp_n_T_tit a {
+    width: 160px;
+    height: 50px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+}
+.h_cp_n_T_tit a.cur {
+    background: #F2BB61;
+    color: #000;
+    border: 1px solid #F2BB61;
+}
+.h_cp_n_T_tit a:hover {
+    background: #F2BB61;
+    color: #000;
+    border: 1px solid #F2BB61;
+}
+.marquee1 {
+    width: 1200px;
+    height: 530px;
+    overflow: hidden;
+}
+.marquee1 ul li {
+    float: left;
+    width: 400px;
+}
+.marquee1 ul li a {
+    width: 395px;
+    float: left;
+    border: 1px solid #FFF;
+    border: 1px solid rgba(0,0,0,0.0);
+}
+.marquee1 ul li img {
+    display: block;
+    width: 100%;
+}
+.marquee1 ul li a:hover {
+    border: 1px solid #8A775C;
+}
+.marquee1 ul li a {
+    text-align: center;
+    height: 528px;
+}
+.marquee1 ul li h1 {
+    font-size: 30px;
+    color: #eec281;
+    text-align: center;
+    line-height: 45px;
+}
+.marquee1 ul li h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFF;
+    line-height: 45px;
+}
+.marquee1 ul li p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #A0A0A0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 5px;
+    height: 51px;
+}
+.marquee1 ul li i {
+    width: 170px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    line-height: 36px;
+    margin-top: 12px;
+    color: #FFF;
+}
+.h_cp_n {
+    position: relative;
+}
+#goL {
+    position: absolute;
+    left: -60px;
+    top: 550px;
+}
+#goR {
+    position: absolute;
+    right: -60px;
+    top: 550px;
+}
+.h_cp_n_T_li {
+    margin-top: 30px;
+}
+.h_cp_n_T_li a{ cursor: pointer;}
 
 
 

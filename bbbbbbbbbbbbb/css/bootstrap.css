@@ -5930,7 +5930,7 @@ button.close {
 }
 
 .carousel-control-prev,
-.carousel-control-next {
+.carousel-control-next,.ll,.rr {
   z-index: 11111;
   position: absolute;
   display: block;
@@ -5941,7 +5941,7 @@ button.close {
   opacity: 0.2;
 }
 
-.carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-prev:hover,.carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
   color: #fff;
@@ -5960,7 +5960,7 @@ button.close {
 }
 
 .carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-control-next-icon,.l,.r{
   z-index: 11111;
   position: absolute;
   display: block;
@@ -5977,6 +5977,7 @@ button.close {
 .carousel-control-next-icon {
   background-image: url("../img/hover_right.png");
 }
+
 
 .carousel-indicators {
   position: absolute;

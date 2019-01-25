@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    outline: none;
+}
 #index_header{
     height: 70px;
 }
@@ -16,6 +20,7 @@
 }
 body{
      font-size: 14px;
+    font-family: "Microsoft YaHei", SimSun, SimHei;
  }
 p {
     text-align: justify;
@@ -45,9 +50,50 @@ h1{
     font-weight: 400;
     outline: none;
 }
-
+#footer iframe{
+    height: 284px !important;
+}
 a {
     text-decoration: none;
     color: #000;
     outline: none;
+}
+.xuanxiang{
+    font-size: 15px;
+    color: #484848;
+    line-height: 65px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.xuanxiang .xuanxiang_1{
+    width: 1200px;
+    margin: 0 auto;
+    background: url(../img/wz.jpg) left center no-repeat;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.xuanxiang a{
+    font-size: 15px;
+    color: #484848;
+}
+.xuanxiang em{
+    color: #f2bb61;
+    font-size: 15px;
+    font-style: normal;
+}
+.xuanxiang_2{
+    display: inline-block;
+    float: right;
+    line-height: 64px;
+}
+.xuanxiang_2 a{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 16px;
+}
+.a{
+    border-bottom: 2px solid #F2BB61;
+    box-sizing: border-box;
 }
