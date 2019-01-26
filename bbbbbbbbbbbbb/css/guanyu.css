@@ -96,44 +96,80 @@
     font-size: 30px;
     text-align: center;
 }
+.lishi p{
+    text-align: center;
+}
 .lishi .lishi_1{
     margin-top: 40px;
     margin-bottom: 80px;
 }
-.lishi .lishi_1 .jianjie_1_l{
-    width: 1200px;
-    margin: 0 auto !important;
-}
-.lishi .lishi_1 .jianjie_1_l .jianjie_1_l_1{
-    text-align: right;
-    margin-bottom: 20px;
-}
-.lishi .lishi_1 .jianjie_1_l .jianjie_1_l_1 img{
-    width: 29px;
-    height: 29px;
-    margin-left: 5px;
-}
-.lishi .lishi_1 .jianjie_1_l .jianjie_1_l_2{
+#BoxUl{
     width: 1200px;
     height: 150px;
     background: url(../img/fz_x.jpg) center 40px no-repeat;
     overflow: hidden;
 }
-.lishi .lishi_1 .jianjie_1_l .jianjie_1_l_2 ul{
+#BoxUl ul{
     width: 3000px;
 }
-.lishi .lishi_1 .jianjie_1_l .jianjie_1_l_2 ul li{
+#BoxUl ul li{
     float: left;
     width: 300px;
     text-align: center;
+}
+#BoxUl ul li span {
+    display: block;
+    font-size: 20px;
+    color: #484848;
+}
+#BoxUl ul li s {
+    width: 18px;
+    height: 18px;
+    background: #C9C9C9;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#BoxUl ul li p {
+    color: #484848;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #C9C9C9;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+    margin: 0 auto;
+}
+s {
+    text-decoration: none;
+}
+.Box_con{
+    height:30px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+a{
+    color: #000;
+}
+.btn{
+    width: 29px;
+    height: 29px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.Box .content {
+    width: 1200px;
+    margin: 0 auto;
 }
 li{
     font-size: 14px;
     list-style-type: none;
     display: list-item;
 }
-
-
 .qiye{
     background: #F9F9F9;
     padding-top: 55px;
