@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../css/guanyu.css">
     <link rel="stylesheet" href="../css/base.css">
     <script src="../js/vue.js"></script>
+    <script src="../js/1.9.1jquery.min.js"></script>
+    <script type="text/javascript" src="../js/guanyu.js" ></script>
 </head>
 <body>
     <div id="index_header">
@@ -86,65 +88,64 @@
 
         <div class="lishi">
             <div class="lishi_img"></div>
-            <div class="lishi_1">
-                <script type="text/javascript" src="../js/aa.js"></script>
-                <div class="lishi_1_1">
-                    <div class="lishi_1_1_1">
-                        <a href="javascript:" id="l">
+            <div class="lishi_1 Box">
+                <div class="content">
+                    <div class="Box_con clearfix">
+                        <a class="btnl btn" id="btnl">
                             <img src="../img/L.jpg">
                         </a>
-                        <a href="javascript:" id="r">
+                        <a class="btnr btn" id="btnr">
                             <img src="../img/R.jpg">
                         </a>
                     </div>
-                    <div id="lishi_1_1_2">
+                    <div id="BoxUl" class="conbox">
                         <ul>
-                            <li>
+                            <li class="cur">
                                 <span>2001年8月</span>
                                 <s></s>
                                 <p>正式取得营业许可证 </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2002年10月</span>
                                 <s></s>
                                 <p>南区工场竣工投产（点心类产品）… </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2003年4月</span>
                                 <s></s>
                                 <p>北区工场竣工投产（冷冻面团类产… </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2007年</span>
                                 <s></s>
                                 <p>烧成冷冻面包类研发投产 </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2011年</span>
                                 <s></s>
                                 <p>烧成冷冻面包车间改建扩大产能 </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2001年8月</span>
                                 <s></s>
                                 <p>正式取得营业许可证 </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2002年10月</span>
                                 <s></s>
                                 <p>南区工场竣工投产（点心类产品）… </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2003年4月</span>
                                 <s></s>
                                 <p>北区工场竣工投产（冷冻面团类产… </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2007年</span>
                                 <s></s>
                                 <p>烧成冷冻面包类研发投产 </p>
                             </li>
-                            <li>
+                            <li class="cur">
                                 <span>2011年</span>
                                 <s></s>
                                 <p>烧成冷冻面包车间改建扩大产能 </p>
@@ -235,6 +236,10 @@
                 h5:"JKF经营使命"
             }
         })
+    </script>
+    <script type="text/javascript">
+        //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
+        LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',true,305,1000,5000,4);
     </script>
 </body>
 </html>
