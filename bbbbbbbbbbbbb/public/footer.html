@@ -13,19 +13,19 @@
 <div id="index_footer">
     <div class="footer_1">
       <div class="footer_1_1">
-        <span>新闻动态</span>
-        <a href="">公司新闻</a>
-        <a href="">行业动态</a>
+        <span>{{span1}}</span>
+        <a href="xinwen.html">{{a1}}</a>
+        <a href="xinwen_2.html">{{a2}}</a>
       </div>
       <div class="footer_1_1">
-        <span>产品中心</span>
-        <a href="">冷冻面团</a>
-        <a href="">烧成冷冻面包</a>
-        <a href="">冷冻点心</a>
+        <span>{{span2}}</span>
+        <a href="">{{a3}}</a>
+        <a href="">{{a4}}</a>
+        <a href="">{{a5}}</a>
       </div>
       <div class="footer_1_2">
-        <span>{{span1}}</span>
-        <span class="number">{{span2}}</span>
+        <span>{{span3}}</span>
+        <span class="number">{{span4}}</span>
         <p>{{p1}}</p>
       </div>
       <div class="footer_1_3">
@@ -43,8 +43,15 @@
   var vm=new Vue({
     el:"#index_footer",
     data:{
-      span1:"订购热线",
-      span2:"86-0631-5925966 5925766",
+      span1:"新闻动态",
+      span2:"产品中心",
+      span3:"订购热线",
+      span4:"86-0631-5925966 5925766",
+      a1:"公司新闻",
+      a2:"行业动态",
+      a3:"冷冻面包",
+      a4:"烧成冷冻面包",
+      a5:"冷冻点心",
       p1:"山东省威海市经济技术开发区齐鲁大道53号",
       p2:"本站部分图片和内容来源于网络，版权归原作者或原公司所有，如果您认为我们侵犯了您的版权请告知我们将立即删除",
       p3:"版权所有 威海蓝海传媒有限公司 © Copyright 2017. 5UEC.com . 鲁ICP备17002755号 公安机关备案号：37100202000473",

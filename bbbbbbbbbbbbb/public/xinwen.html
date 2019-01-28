@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公司新闻 - 威海佳康食品有限公司</title>
+    <link rel="shortcut icon" href="../img/favicon-20190127033444751.ico" />
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/xinwen.css">
+    <script src="../js/vue.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+</head>
+<body>
+    <div id="app">
+        <div id="index_header">
+            <iframe class="index_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="img"></div>
+        <div class="xuanxiang">
+            <div class="xuanxiang_1"> &gt;
+                <a href="index.html">{{a1}}</a> &gt;
+                <a href="xinwen.html">{{a2}}</a> &gt;
+                <em>{{em}}</em>
+                <div class="xuanxiang_2">
+                    <a href="guanyu.html" class="a">{{a3}}</a>
+                    <a href="rongyu.html">{{a4}}</a>
+                </div>
+            </div>
+        </div>
+        <div class="xinwen">
+            <div class="xinwen_1">
+                <a href="/news/show-149.html">
+                    <div class="x_time">{{d1}}<s>{{s1}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h1}}</h1>
+                            <p>{{p1}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811141410506902.jpg">
+                </a>
+                <a href="/news/show-148.html">
+                    <div class="x_time">{{d2}}<s>{{s1}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h2}}</h1>
+                            <p>{{p2}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061432093237.jpg">
+                </a>
+                <a href="/news/show-147.html">
+                    <div class="x_time">{{d3}}<s>{{s1}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h3}}</h1>
+                            <p>{{p3}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061445523705.jpg">
+                </a>
+                <a href="/news/show-135.html">
+                    <div class="x_time">{{d4}}<s>{{s1}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h4}}</h1>
+                            <p>{{p4}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061446325580.jpg">
+                </a>
+                <a href="/news/show-146.html">
+                    <div class="x_time">{{d5}}<s>{{s1}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h5}}</h1>
+                            <p>{{p5}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061446534330.jpg">
+                </a>
+                <a href="/news/show-197.html">
+                    <div class="x_time">{{d6}}<s>{{s2}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h6}}</h1>
+                            <p>{{p6}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061447361830.jpg">
+                </a>
+                <a href="/news/show-196.html">
+                    <div class="x_time">{{d7}}<s>{{s2}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h7}}</h1>
+                            <p>{{p7}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061449536987.jpg">
+                </a>
+                <a href="/news/show-195.html">
+                    <div class="x_time">{{d8}}<s>{{s3}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h8}}</h1>
+                            <p>{{p8}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061451213393.jpg">
+                </a>
+                <a href="/news/show-194.html">
+                    <div class="x_time">{{d9}}<s>{{s3}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h9}}</h1>
+                            <p>{{p9}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061451499018.jpg">
+                </a>
+                <a href="/news/show-193.html">
+                    <div class="x_time">{{d10}}<s>{{s4}}</s></div>
+                    <div class="x_R">
+                        <div class="x_R_1">
+                            <h1>{{h10}}</h1>
+                            <p>{{p10}}</p>
+                        </div>
+                    </div>
+                    <img src="../img/201811061454114174.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="fenye">
+            <div class="ep-pages">
+                <span> 上一页 </span>
+                <span class="current">1</span>
+                <a href="xinwen_1.html">2</a>
+                <a href="xinwen_1.html"> 下一页 </a>
+            </div>
+        </div>
+        <div id="footer">
+            <iframe class="footer" src="footer.html" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+    <script>
+        var vm=new Vue({
+            el:"#app",
+            data:{
+                a1:"首页",
+                a2:"新闻首页",
+                a3:"公司新闻",
+                a4:"行业动态",
+                em:"公司新闻",
+
+                d1:"29",
+                s1:"2018-06",
+                h1:"TableMark株式会社川股社长威海行圆满结束",
+                p1:"6月27日，TableMark株式会社川股社长抵达威海开始对下设威海佳康食品有限公司和威海威东日综合食品有限公司两家子公司展开考察。并与两公司各部门骨干就目前集团的现状及未来…",
+                d2:"19",
+                h2:"威海佳康食品有限公司安全生产月活动进行时",
+                p2:"6月19日，威海佳康食品发起了2018年以液氨泄漏为主题的疏散逃生演练。威海经区商务局、凤林安监局领导莅临视察，对本次疏散逃生演练给与指导。上午10时许，拟车间内部液氨泄…",
+                d3:"12",
+                h3:"喜讯||佳康面包延长零售时间啦！！！",
+                p3:"这世界没有什么可以抵御美食的力量哪怕是爱是信仰都需要这美味的饱腹感才能于千里锦帛上开出炫目的花来……饕客们致力于美食的追逐而我们正致力于为你们搭建畅通无阻的通路是…",
+                d4:"11",
+                h4:"威海佳康食品无染寺樱桃采摘欢乐游（下）",
+                p4:"欢腾了半个月的无染寺樱桃采摘欢乐游，终于于上个周周末圆满收官。吃得好，玩的嗨，这一路良辰美景，有你真好青山绿水里那些难忘的瞬间旅行是一群人的狂欢向前走吧，沿着你的…",
+                d5:"04",
+                h5:"威海佳康食品无染寺樱桃采摘欢乐游（上）",
+                p5:"筹备多日的无染寺樱桃采摘欢乐游终于在上个周六开始了！赶在盛夏之前，恰逢一个风和日丽，正是一天艳阳高照……早上七点半正式出发一路欢声笑语嗨到停不下来趁兴而来，尽兴而…",
+                d6:"20",
+                s2:"2016-06",
+                h6:"第七届威海国际食品博览会圆满成功",
+                p6:"6月17日~6月20日，第七届威海国际食品博览会在威海国际会展中心隆重举行，威海佳康食品有限公司为大家精心准备了多种特色美食。在展会期间我们的产品受到顾客们的一致好评，…",
+                d7:"20",
+                h7:"经区商务局、安监局的领导一行现场指导疏散逃生演练",
+                p7:"六月是安全生产月，为了强化应急管理，提升职工的安全意识，使公司生产现场在灾害前各项应急工作能够高效、有序的进行，最大限度的减轻灾害造成的损失，我们威海佳康食品有限…",
+                d8:"10",
+                s3:"2015-07",
+                h8:"ISO22000内审员培训圆满成功",
+                p8:"2015年7月7日至2015年7月9日威海佳康食品有限公司进行了为期3天的ISO22000内审员专场培训，此次培训专门聘请SGS管理学院高级讲师进行培训，公司6个部门、共18人参加。主要培…",
+                d9:"02",
+                h9:"第六届威海国际食品博览会圆满成功",
+                p9:"第六届威海国际食品博览会圆满成功第六届威海国际食品博览会威海威东日食品、青岛亚是加食品与我公司共同设立展位，展出产品主要有调理食品、乌冬面、面包三大类 。会展期间…",
+                d10:"08",
+                s4:"2015-06",
+                h10:"参加工会组织的经区企业职工拔河大赛",
+                p10:"为增强员工凝聚力，加深与各经区单位间交流，佳康食品有限公司精心选派16名队员组成拔河队，于6月6日在青岛路小学参加由总工会组织的经区企业单位拔河比赛。拔河比赛现场气氛…",
+            },
+        })
+    </script>
+</body>
+</html>
