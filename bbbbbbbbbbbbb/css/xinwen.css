@@ -1,0 +1,121 @@
+.img{
+    background: url(../img/201812031654106572.jpg) center center no-repeat;
+    width: 100%;
+    height: 450px;
+}
+.xinwen{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+}
+.xinwen .xinwen_1{
+    margin-top: 60px;
+    overflow: hidden;
+}
+.xinwen .xinwen_1 a{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 35px;
+    float: left;
+    margin-bottom: 10px;
+    color: #000;
+}
+.x_time{
+    width: 145px;
+    height: 85px;
+    float: left;
+    font-size: 45px;
+    color: #4e4e4e;
+    text-align: center;
+}
+.x_time s{
+    color: #4e4e4e;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+.x_R{
+    width: 690px;
+    float: left;
+}
+.x_R .x_R_1{
+    width: 700px;
+    float: left;
+}
+.x_R .x_R_1 h1{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.x_R .x_R_1 p{
+    font-size: 14px;
+    color: #4e4e4e;
+}
+.xinwen_1 a img{
+    width: 180px;
+    height: 120px;
+    float: right;
+}
+.xinwen_1 a:hover{
+    background-color: #F8F8F8;
+}
+.xinwen_1 a:hover .x_time{
+    color: #F2BB61;
+}
+
+
+.fenye{
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.ep-pages {
+    margin: 0 auto;
+    display: inline-block;
+    border-right: 1px solid #E8E8E8;
+    margin-top: 20px;
+}
+.ep-pages span {
+    display: inline-block;
+    border: 1px solid #E8E8E8;
+    color: #3c3c3c;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.ep-pages a, .ep-pages span {
+    display: inline-block;
+    border: 1px solid #E8E8E8;
+    color: #3c3c3c;
+    border-right: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.current {
+    background: #F2BB61 !important;
+    border: 1px solid #F2BB61 !important;
+    color: #fff !important;
+}
+.ep-pages a:hover{
+    color: #F2BB61;
+}
+
+
+
+
+
+
+
+
+
+
+
+

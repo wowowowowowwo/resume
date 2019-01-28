@@ -9,9 +9,6 @@ a{
 #index_header{
     height: 70px;
 }
-.index_header{
-    z-index: 999;
-}
 .footer{
     height: 354px;
 }
