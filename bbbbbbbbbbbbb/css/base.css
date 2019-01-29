@@ -12,7 +12,8 @@ a{
 .footer{
     height: 354px;
 }
-.index_header,.footer{
+
+#index_header,.footer{
     width: 100%;
 }
 body{
@@ -27,6 +28,11 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+h1, h2, h3, h4, h5, h6, em, i {
+    font-style: normal;
+    font-weight: 400;
+    outline: none;
 }
 .clear{
     display: block;
@@ -93,4 +99,42 @@ a {
 .a{
     border-bottom: 2px solid #F2BB61;
     box-sizing: border-box;
+}
+
+.index_header{
+    height: 70px;
+    line-height: 70px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    background: rgba(0,0,0,0.6);
+}
+
+.index_header .header{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.index_header .logo{
+    float: left;
+}
+.index_header .logo a{
+    display: block;
+}
+.index_header #daohang{
+    float: right;
+    overflow: hidden;
+}
+.index_header #daohang a{
+    margin-left: 50px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    text-decoration: none;
+}
+.hover{
+    color: #EAC658 !important;
 }
