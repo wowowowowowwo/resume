@@ -11,24 +11,38 @@
 </head>
 <body>
     <div id="app">
-        <div id="index_header">
-            <iframe class="index_header" src="header.html" frameborder="0" scrolling="no"></iframe>
-        </div>
         <div class="img"></div>
+        <div class="index_header">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html" target="_parent">
+                        <img src="../img/logo_g.png" alt=""/>
+                    </a>
+                </div>
+                <div id="daohang">
+                    <a href="index.html" target="_parent">{{dh1}}</a>
+                    <a href="guanyu.html" target="_parent">{{dh2}}</a>
+                    <a href="xinwen.html" target="_parent" class="hover">{{dh3}}</a>
+                    <a href="chanpin.html" target="_parent">{{dh4}}</a>
+                    <a href="rencai.html" target="_parent">{{dh5}}</a>
+                    <a href="lianxi.html" target="_parent">{{dh6}}</a>
+                </div>
+            </div>
+        </div>
         <div class="xuanxiang">
             <div class="xuanxiang_1"> &gt;
                 <a href="index.html">{{a1}}</a> &gt;
                 <a href="xinwen.html">{{a2}}</a> &gt;
                 <em>{{em}}</em>
                 <div class="xuanxiang_2">
-                    <a href="guanyu.html" class="a">{{a3}}</a>
-                    <a href="rongyu.html">{{a4}}</a>
+                    <a href="xinwen.html" class="a">{{a3}}</a>
+                    <a href="hangye.html">{{a4}}</a>
                 </div>
             </div>
         </div>
         <div class="xinwen">
             <div class="xinwen_1">
-                <a href="/news/show-149.html">
+                <a href="xinwen_1.html">
                     <div class="x_time">{{d1}}<s>{{s1}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -38,7 +52,7 @@
                     </div>
                     <img src="../img/201811141410506902.jpg">
                 </a>
-                <a href="/news/show-148.html">
+                <a href="xinwen_2.html">
                     <div class="x_time">{{d2}}<s>{{s1}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -48,7 +62,7 @@
                     </div>
                     <img src="../img/201811061432093237.jpg">
                 </a>
-                <a href="/news/show-147.html">
+                <a href="xinwen_3.html">
                     <div class="x_time">{{d3}}<s>{{s1}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -58,7 +72,7 @@
                     </div>
                     <img src="../img/201811061445523705.jpg">
                 </a>
-                <a href="/news/show-135.html">
+                <a href="xinwen_4.html">
                     <div class="x_time">{{d4}}<s>{{s1}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -68,7 +82,7 @@
                     </div>
                     <img src="../img/201811061446325580.jpg">
                 </a>
-                <a href="/news/show-146.html">
+                <a href="xinwen_5.html">
                     <div class="x_time">{{d5}}<s>{{s1}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -78,7 +92,7 @@
                     </div>
                     <img src="../img/201811061446534330.jpg">
                 </a>
-                <a href="/news/show-197.html">
+                <a href="xinwen_6.html">
                     <div class="x_time">{{d6}}<s>{{s2}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -88,7 +102,7 @@
                     </div>
                     <img src="../img/201811061447361830.jpg">
                 </a>
-                <a href="/news/show-196.html">
+                <a href="xinwen_7.html">
                     <div class="x_time">{{d7}}<s>{{s2}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -98,7 +112,7 @@
                     </div>
                     <img src="../img/201811061449536987.jpg">
                 </a>
-                <a href="/news/show-195.html">
+                <a href="xinwen_8.html">
                     <div class="x_time">{{d8}}<s>{{s3}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -108,7 +122,7 @@
                     </div>
                     <img src="../img/201811061451213393.jpg">
                 </a>
-                <a href="/news/show-194.html">
+                <a href="xinwen_9.html">
                     <div class="x_time">{{d9}}<s>{{s3}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -118,7 +132,7 @@
                     </div>
                     <img src="../img/201811061451499018.jpg">
                 </a>
-                <a href="/news/show-193.html">
+                <a href="xinwen_10.html">
                     <div class="x_time">{{d10}}<s>{{s4}}</s></div>
                     <div class="x_R">
                         <div class="x_R_1">
@@ -134,8 +148,8 @@
             <div class="ep-pages">
                 <span> 上一页 </span>
                 <span class="current">1</span>
-                <a href="xinwen_1.html">2</a>
-                <a href="xinwen_1.html"> 下一页 </a>
+                <a href="xinwen_x.html">2</a>
+                <a href="xinwen_x.html"> 下一页 </a>
             </div>
         </div>
         <div id="footer">
@@ -146,6 +160,13 @@
         var vm=new Vue({
             el:"#app",
             data:{
+                dh1:"网站首页",
+                dh2:"关于佳康",
+                dh3:"新闻动态",
+                dh4:"产品中心",
+                dh5:"人才招聘",
+                dh6:"联系我们",
+
                 a1:"首页",
                 a2:"新闻首页",
                 a3:"公司新闻",

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>行业新闻 - 威海佳康食品有限公司</title>
+  <link rel="shortcut icon" href="../img/favicon-20190127033444751.ico" />
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/xinwen.css">
+  <script src="../js/vue.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+</head>
+<body>
+<div id="app">
+  <div class="img"></div>
+  <div class="index_header">
+    <div class="header">
+      <div class="logo">
+        <a href="index.html" target="_parent">
+          <img src="../img/logo_g.png" alt=""/>
+        </a>
+      </div>
+      <div id="daohang">
+        <a href="index.html" target="_parent">{{dh1}}</a>
+        <a href="guanyu.html" target="_parent">{{dh2}}</a>
+        <a href="xinwen.html" target="_parent" class="hover">{{dh3}}</a>
+        <a href="chanpin.html" target="_parent">{{dh4}}</a>
+        <a href="rencai.html" target="_parent">{{dh5}}</a>
+        <a href="lianxi.html" target="_parent">{{dh6}}</a>
+      </div>
+    </div>
+  </div>
+  <div class="xuanxiang">
+    <div class="xuanxiang_1"> &gt;
+      <a href="index.html">{{a1}}</a> &gt;
+      <a href="xinwen.html">{{a2}}</a> &gt;
+      <em>{{em}}</em>
+      <div class="xuanxiang_2">
+        <a href="xinwen.html">{{a3}}</a>
+        <a href="hangye.html" class="a">{{a4}}</a>
+      </div>
+    </div>
+  </div>
+  <div class="xinwen">
+    <div class="xinwen_1">
+      <a href="/news/show-192.html">
+        <div class="x_time">{{d1}}<s>{{s1}}</s></div>
+        <div class="x_R">
+          <div class="x_R_1">
+            <h1>{{h1}}</h1>
+            <p>{{p1}}</p>
+          </div>
+        </div>
+        <img src="../img/201811061608339487.jpg">
+      </a>
+      <a href="/news/show-191.html">
+        <div class="x_time">{{d2}}<s>{{s2}}</s></div>
+        <div class="x_R">
+          <div class="x_R_1">
+            <h1>{{h2}}</h1>
+            <p>{{p2}}</p>
+          </div>
+        </div>
+        <img src="../img/201811061609006518.jpg">
+      </a>
+    </div>
+  </div>
+  <div>&nbsp;</div>
+  <br/><br/><br/><br/><br/>
+  <div id="footer">
+    <iframe class="footer" src="footer.html" frameborder="0" scrolling="no"></iframe>
+  </div>
+</div>
+<script>
+  var vm=new Vue({
+    el:"#app",
+    data:{
+      dh1:"网站首页",
+      dh2:"关于佳康",
+      dh3:"新闻动态",
+      dh4:"产品中心",
+      dh5:"人才招聘",
+      dh6:"联系我们",
+
+      a1:"首页",
+      a2:"新闻首页",
+      a3:"公司新闻",
+      a4:"行业动态",
+      em:"公司新闻",
+
+      d1:"20",
+      s1:"2018-08",
+      h1:"面包行业稳步发展 终将为国家经济做出贡献",
+      p1:"面包，是一种用五谷（一般是麦类）磨粉制作并加热而制成的食品。以小麦粉为主要原料，以酵母、鸡蛋、油脂、果仁等为辅料，加水调制成面团，经过发酵、整型、成型、焙烤、冷却…",
+
+      d2:"20",
+      s2:"2018-08",
+      h2:"2018年中国面包行业发展现状及发展趋势分析",
+      p2:"我国烘焙行业持续保持高景气度，面包子行业增速维持 10%以上。烘焙产业大致分为四大类，分别是面包、蛋糕、月饼以及粽子，面包和蛋糕为烘焙主要构成，且界限不清晰，可统称为…"
+    }
+  })
+</script>
+</body>
+</html>

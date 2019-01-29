@@ -11,19 +11,33 @@
     <script type="text/javascript" src="../js/guanyu.js" ></script>
 </head>
 <body>
-    <div id="index_header">
-        <iframe class="index_header" src="header.html" frameborder="0" scrolling="no"></iframe>
-    </div>
     <div id="guanyu">
         <div class="img"></div>
+        <div class="index_header">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html" target="_parent">
+                        <img src="../img/logo_g.png" alt=""/>
+                    </a>
+                </div>
+                <div id="daohang">
+                    <a href="index.html" target="_parent">{{dh1}}</a>
+                    <a href="guanyu.html" target="_parent" class="hover">{{dh2}}</a>
+                    <a href="xinwen.html" target="_parent">{{dh3}}</a>
+                    <a href="chanpin.html" target="_parent">{{dh4}}</a>
+                    <a href="rencai.html" target="_parent">{{dh5}}</a>
+                    <a href="lianxi.html" target="_parent">{{dh6}}</a>
+                </div>
+            </div>
+        </div>
         <div class="xuanxiang">
             <div class="xuanxiang_1"> &gt;
-                <a href="index.html">首页</a> &gt;
-                <a href="guanyu.html">关于佳康</a> &gt;
-                <em>公司简介</em>
+                <a href="index.html">{{a1}}</a> &gt;
+                <a href="guanyu.html">{{a2}}</a> &gt;
+                <em>{{em}}</em>
                 <div class="xuanxiang_2">
-                    <a href="guanyu.html" class="a">公司简介</a>
-                    <a href="rongyu.html">荣誉资质</a>
+                    <a href="guanyu.html" class="a">{{a3}}</a>
+                    <a href="rongyu.html">{{a4}}</a>
                 </div>
             </div>
         </div>
@@ -102,54 +116,54 @@
                     <div id="BoxUl" class="conbox">
                         <ul>
                             <li class="cur">
-                                <span>2001年8月</span>
+                                <span>{{sp1}}</span>
                                 <s></s>
-                                <p>正式取得营业许可证 </p>
+                                <p>{{p14}} </p>
                             </li>
                             <li class="cur">
-                                <span>2002年10月</span>
+                                <span>{{sp2}}</span>
                                 <s></s>
-                                <p>南区工场竣工投产（点心类产品）… </p>
+                                <p>{{p15}}</p>
                             </li>
                             <li class="cur">
-                                <span>2003年4月</span>
+                                <span>{{sp3}}</span>
                                 <s></s>
-                                <p>北区工场竣工投产（冷冻面团类产… </p>
+                                <p>{{p16}}</p>
                             </li>
                             <li class="cur">
-                                <span>2007年</span>
+                                <span>{{sp4}}</span>
                                 <s></s>
-                                <p>烧成冷冻面包类研发投产 </p>
+                                <p>{{p17}}</p>
                             </li>
                             <li class="cur">
-                                <span>2011年</span>
+                                <span>{{sp5}}</span>
                                 <s></s>
-                                <p>烧成冷冻面包车间改建扩大产能 </p>
+                                <p>{{p18}} </p>
                             </li>
                             <li class="cur">
-                                <span>2001年8月</span>
+                                <span>{{sp6}}</span>
                                 <s></s>
-                                <p>正式取得营业许可证 </p>
+                                <p>{{p19}} </p>
                             </li>
                             <li class="cur">
-                                <span>2002年10月</span>
+                                <span>{{sp7}}</span>
                                 <s></s>
-                                <p>南区工场竣工投产（点心类产品）… </p>
+                                <p>{{p20}}</p>
                             </li>
                             <li class="cur">
-                                <span>2003年4月</span>
+                                <span>{{sp8}}</span>
                                 <s></s>
-                                <p>北区工场竣工投产（冷冻面团类产… </p>
+                                <p>{{p21}}</p>
                             </li>
                             <li class="cur">
-                                <span>2007年</span>
+                                <span>{{sp9}}</span>
                                 <s></s>
-                                <p>烧成冷冻面包类研发投产 </p>
+                                <p>{{p22}} </p>
                             </li>
                             <li class="cur">
-                                <span>2011年</span>
+                                <span>{{sp10}}</span>
                                 <s></s>
-                                <p>烧成冷冻面包车间改建扩大产能 </p>
+                                <p>{{p23}} </p>
                             </li>
                         </ul>
                     </div>
@@ -169,13 +183,13 @@
                         {{h2}}
                     </h1>
                     <p>
-                        {{p14}}
+                        {{p24}}
                     </p>
                     <p>
-                        {{p15}}
+                        {{p25}}
                     </p>
                     <p>
-                        {{p16}}
+                        {{p26}}
                     </p>
                     <h2>
                         {{h3}}
@@ -185,10 +199,10 @@
             <div class="qiye_2">
                 <div class="qiye_2_1">
                     <h1>{{h4}}</h1>
-                    <p>{{p17}}</p>
+                    <p>{{p27}}</p>
                     <h1>{{h5}}</h1>
                     <p>
-                        {{p18}}
+                        {{p28}}
                     </p>
                 </div>
                 <div class="qiye_2_2">
@@ -205,6 +219,18 @@
         var vm=new Vue({
             el:"#guanyu",
             data:{
+                dh1:"网站首页",
+                dh2:"关于佳康",
+                dh3:"新闻动态",
+                dh4:"产品中心",
+                dh5:"人才招聘",
+                dh6:"联系我们",
+
+                a1:"首页",
+                a2:"关于佳康",
+                em:"公司简介",
+                a3:"公司简介",
+                a4:"荣誉资质",
                 strong1:"现有2个加工车间、5600吨的冷冻保管库、世界较好水平的大型全自动面包生产流水线2条，年生产能力6000余吨。",
                 strong2:"设立日期：",
                 strong3:"所 &nbsp;在 &nbsp;地：",
@@ -225,11 +251,32 @@
                 p11:"株式会社加卜吉（100%）        2008.07.01--2009.12.31",
                 p12:"Table Mark(加卜吉社名变更）     2010.01.01--",
                 p13:"冷冻生地、烧成面包、烧成点心，产品主要出口到日本、韩国",
-                p14:"倡导和普及新的「饮食文化」和「生活方式」",
-                p15:"让「放心食用」成为理所当然",
-                p16:"要方便，快捷与美味并存",
-                p17:"诚信守德、持续超越、成就自我，奉献社会",
-                p18:"以诚信为本，以顾客为先，坚持严谨、高效、专业、务实的工作态度，为自己、为家人、为客户、为社会生产提供更好的、更安全放心的产品",
+                sp1:"2001年8月",
+                p14:"正式取得营业许可证",
+                sp2:"2002年10月",
+                p15:"南区工场竣工投产（点心类产品）…",
+                sp3:"2003年4月",
+                p16:"北区工场竣工投产（冷冻面团类产… ",
+                sp4:"2007年",
+                p17:"烧成冷冻面包类研发投产 ",
+                sp5:"2011年",
+                p18:"烧成冷冻面包车间改建扩大产能",
+                sp6:"2001年8月",
+                p19:"正式取得营业许可证",
+                sp7:"2002年10月",
+                p20:"南区工场竣工投产（点心类产品）… ",
+                sp8:"2003年4月",
+                p21:"北区工场竣工投产（冷冻面团类产… ",
+                sp9:"2007年",
+                p22:"烧成冷冻面包类研发投产",
+                sp10:"2011年",
+                p23:"烧成冷冻面包车间改建扩大产能",
+
+                p24:"倡导和普及新的「饮食文化」和「生活方式」",
+                p25:"让「放心食用」成为理所当然",
+                p26:"要方便，快捷与美味并存",
+                p27:"诚信守德、持续超越、成就自我，奉献社会",
+                p28:"以诚信为本，以顾客为先，坚持严谨、高效、专业、务实的工作态度，为自己、为家人、为客户、为社会生产提供更好的、更安全放心的产品",
                 h1:"公司概要",
                 h2:"中国事业愿景------成为中国食品市场的「领跑者」",
                 h3:"以此为目标，实现中国生产，中国壮大，成就全体员工不懈追求、引以为傲的「事业」。",
