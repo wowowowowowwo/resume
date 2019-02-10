@@ -42,6 +42,16 @@ body{
     overflow: hidden;
     margin-bottom: 10px;
 }
+#popWinClose{
+     background: url(../img/x.png) center center no-repeat;
+     width: 54px;
+     height: 54px;
+     cursor: pointer;
+     position: absolute;
+     top: -12px;
+     right: 45px;
+ }
+
 .jieshao{
     width: 680px;
     margin: 0 auto;
