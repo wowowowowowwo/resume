@@ -1,3 +1,36 @@
+#my_index{
+    margin-top: 115px;
+    width: 100%;
+}
+#footer1,#footer1 a{
+    background: url("../img/foot.png") no-repeat center;
+    color: #fff;
+    font-size: 0.75rem;
+    height: 8.3rem;
+    z-index: 50;
+    position: relative;
+    margin-top: -40px;
+    width: 101%;
+}
+#footer1 p{
+    margin: 0
+}
+#footer1 #div1{
+    float: left;
+    padding: 0;
+}
+#footer2,#footer3{
+    margin-top: 2.5rem;
+}
+#footer1 #div3 img{
+    float: right;
+}
+#footer1 #img img{
+    float: right;
+}
+#footer1 #img{
+    padding-right: 0;
+}
 
 
 
