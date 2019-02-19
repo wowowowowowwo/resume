@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/aaa.css">
     <link rel="stylesheet" href="../css/chanpin.css">
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
     <script src="../js/vue.js"></script>
+    <script src="../js/aa.js"></script>
+    <script src="../js/bb.js"></script>
+    <script src="../js/jquery_tc.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js" ></script>
 </head>
 <body>
@@ -33,12 +37,12 @@
     <div class="xuanxiang">
         <div class="xuanxiang_1"> &gt;
             <a href="index.html">{{a1}}</a> &gt;
-            <a href="xinwen.html">{{a2}}</a> &gt;
+            <a href="chanpin_1.html">{{a2}}</a> &gt;
             <em>{{em}}</em>
             <div class="xuanxiang_2">
-                <a href="xinwen.html" class="a">{{a3}}</a>
-                <a href="hangye.html">{{a4}}</a>
-                <a href="hangye.html">{{a5}}</a>
+                <a href="chanpin_1.html" class="a">{{a3}}</a>
+                <a href="chanpin_2.html">{{a4}}</a>
+                <a href="chanpin_3.html">{{a5}}</a>
             </div>
         </div>
     </div>
@@ -46,11 +50,22 @@
         <div class="cp_list_top">
             <div class="cp_list_top_L">
                 <div class="marqueebox_pr">
-                    <div id="marquee3pr">
-                        <ul style="width: 3390px;">
-                            <li><a><img src="../img/201810311124166209.jpg"></a></li>
-                            <li><a><img src="../img/201810311342469763.jpg"></a></li>
-                            <li><a><img src="../img/201810311342533657.jpg"></a></li>
+                    <div id="demo" class="carousel" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/201810311124166209.jpg"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/201810311342469763.jpg"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/201810311342533657.jpg"/>
+                            </div>
+                        </div>
+                        <ul class="carousel-indicators ">
+                            <li class="active" data-target="#demo" data-slide-to="0"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
                         </ul>
                     </div>
                     <div id="mar3prNav">
@@ -69,13 +84,9 @@
             <div class="p_z"></div>
         </div>
         <!--cp_list_top-->
-        <script type="text/javascript" src="/templates/JKSP/js/jquery_tc.js"></script>
-        <script type="text/javascript" src="/templates/JKSP/js/popwin.js"></script>
         <div class="cp_li_com">
             <ul>
-
                 <li>
-
                     <a class="tanchu1"><img src="../img/201808211709164018.png"> <br>
                         <h1>
                             发酵黄油牛角生面团
@@ -90,7 +101,7 @@
                 <script>
                     $(document).ready(function() {
                         $(".tanchu1").on('click' , function(){
-                            popWin.showWin("1000","850","发酵黄油牛角生面团","/product/show-145.html");
+                            popWin.showWin("1000","850","发酵黄油牛角生面团","f1.html");
                         });
                     });
                 </script>
@@ -325,18 +336,21 @@
                         });
                     });
                 </script>
-
                 <s class="clear"></s>
             </ul>
             <div class="fenye">
                 <div class="ep-pages">
-                    <span class="disabled"> 上一页 </span><span class="current">1</span>
-                    <a href="/product/list-60-2.html">2</a><a href="/product/list-60-2.html"> 下一页 </a></div>
+                    <span class="disabled"> 上一页 </span>
+                    <span class="current">1</span>
+                    <a href="/product/list-60-2.html">2</a>
+                    <a href="/product/list-60-2.html"> 下一页 </a>
+                </div>
             </div>
-            <!--fenye-->
         </div>
-        <!--cp_li_com-->
     </div>
+</div>
+<div id="footer">
+    <iframe class="footer" src="footer.html" frameborder="0" scrolling="no"></iframe>
 </div>
 <script>
     var vm=new Vue({
