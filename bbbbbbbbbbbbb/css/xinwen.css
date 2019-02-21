@@ -68,50 +68,6 @@
 }
 
 
-.fenye{
-    text-align: center;
-    clear: both;
-    margin-top: 20px;
-    margin-bottom: 70px;
-}
-.ep-pages {
-    margin: 0 auto;
-    display: inline-block;
-    border-right: 1px solid #E8E8E8;
-    margin-top: 20px;
-}
-.ep-pages span {
-    display: inline-block;
-    border: 1px solid #E8E8E8;
-    color: #3c3c3c;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    text-decoration: none;
-}
-.ep-pages a, .ep-pages span {
-    display: inline-block;
-    border: 1px solid #E8E8E8;
-    color: #3c3c3c;
-    border-right: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    text-decoration: none;
-}
-.current {
-    background: #F2BB61 !important;
-    border: 1px solid #F2BB61 !important;
-    color: #fff !important;
-}
-.ep-pages a:hover{
-    color: #F2BB61;
-}
-
 .news {
     margin-top: 50px !important;
 }

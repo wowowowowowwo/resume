@@ -289,13 +289,17 @@
 .h_cp_n {
     position: relative;
 }
-#goL {
+#btnl{
     position: absolute;
+    width: 29px;
+    height: 29px;
     left: -60px;
     top: 550px;
 }
-#goR {
+#btnr{
     position: absolute;
+    width: 29px;
+    height: 29px;
     right: -60px;
     top: 550px;
 }
