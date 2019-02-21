@@ -4,15 +4,20 @@
   <meta charset='utf-8'>
   <title>威海佳康食品有限公司</title>
   <link rel="shortcut icon" href="img/favicon-20190127033444751.ico" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <script src="js/vue.js"></script>
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1.0"/>
   <link rel="stylesheet" href="css/bootstrap.css"/>
   <link rel="stylesheet" href="css/base.css"/>
   <link rel="stylesheet" href="css/index.css"/>
   <link rel="stylesheet" href="css/bbb.css"/>
+  <script src="js/vue.js"></script>
+  <script src="js/bb.js"></script>
+  <script src="js/aa.js"></script>
+  <script src="js/jquery_tc.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/guanyu.js" ></script>
 </head>
 <body>
 <div id="index">
@@ -95,194 +100,207 @@
       <div class="h_cp_n_T">
         <img src="img/hcp_lo.png" class="h_cp_n_T_img">
         <div class="h_cp_n_T_tit">
-          <a href="index.html" class="cur">{{a7}}</a>
-          <a href="public/index_2.html">{{a8}}</a>
-          <a href="public/index_3.html">{{a9}}</a>
+          <a href="public/chanpin_1.html">{{a7}}</a>
+          <a href="public/chanpin_2.html">{{a8}}</a>
+          <a href="public/chanpin_3.html">{{a9}}</a>
         </div>
       </div>
       <!--h_cp_n_T-->
-      <div class="h_cp_n_T_li h_cp_n_T_li_0">
-        <div class="marquee1">
-          <ul style="width: 11200px;">
-            <li><a class="tanchu1">
-              <img src="img/201808211709164018.png"> <br>
-              <h1>
-                {{h1}}
-              </h1>
-              <h2>
-                {{h2_1}}
-              </h2>
-              <p>
-                {{p1}}
-              </p>
-              <i>{{i}}</i> </a></li>
+      <div class="Box">
+        <div class="content">
+          <div class="Box_con clearfix">
+            <a class="btnl btn" id="btnl">
+              <img src="img/h_cp_L.png">
+            </a>
+            <a class="btnr btn" id="btnr">
+              <img src="img/h_cp_R.png">
+            </a>
+            <div class="h_cp_n_T_li h_cp_n_T_li_0 conbox" id="BoxUl">
+              <div class="marquee1">
+                <ul>
+                  <li class="cur"><a class="tanchu1">
+                    <img src="img/201808211709164018.png"> <br>
+                    <h1>
+                      {{h1}}
+                    </h1>
+                    <h2>
+                      {{h2_1}}
+                    </h2>
+                    <p>
+                      {{p1}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu2">
-              <img src="img/201808211706203237.png"> <br>
-              <h1>
-                {{h2}}
-              </h1>
-              <h2>
-                {{h2_2}}
-              </h2>
-              <p>
-                {{p2}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu2">
+                    <img src="img/201808211706203237.png"> <br>
+                    <h1>
+                      {{h2}}
+                    </h1>
+                    <h2>
+                      {{h2_2}}
+                    </h2>
+                    <p>
+                      {{p2}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li>
-              <a class="tanchu3">
-                <img src="img/201808211705390580.png"> <br>
-                <h1>
-                  {{h3}}
-                </h1>
-                <h2>
-                  {{h2_3}}
-                </h2>
-                <p>
-                  {{p3}}
-                </p>
-                <i>{{i}}</i>
-              </a>
-            </li>
+                  <li class="cur">
+                    <a class="tanchu3">
+                      <img src="img/201808211705390580.png"> <br>
+                      <h1>
+                        {{h3}}
+                      </h1>
+                      <h2>
+                        {{h2_3}}
+                      </h2>
+                      <p>
+                        {{p3}}
+                      </p>
+                      <i>{{i}}</i>
+                    </a>
+                  </li>
 
-            <li>
-              <a class="tanchu4">
-                <img src="img/201808211707078549.png"> <br>
-                <h1>
-                  {{h4}}
-                </h1>
-                <h2>
-                  {{h2_4}}
-                </h2>
-                <p>
-                  {{p4}}
-                </p>
-                <i>{{i}}</i>
-              </a></li>
+                  <li class="cur">
+                    <a class="tanchu4">
+                      <img src="img/201808211707078549.png"> <br>
+                      <h1>
+                        {{h4}}
+                      </h1>
+                      <h2>
+                        {{h2_4}}
+                      </h2>
+                      <p>
+                        {{p4}}
+                      </p>
+                      <i>{{i}}</i>
+                    </a></li>
 
-            <li><a class="tanchu5"><img src="img/201808211707519643.png"> <br>
-              <h1>
-                {{h5}}
-              </h1>
-              <h2>
-                {{h2_5}}
-              </h2>
-              <p>
-                {{p5}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu5"><img src="img/201808211707519643.png"> <br>
+                    <h1>
+                      {{h5}}
+                    </h1>
+                    <h2>
+                      {{h2_5}}
+                    </h2>
+                    <p>
+                      {{p5}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu6"><img src="img/201808211710030268.png"> <br>
-              <h1>
-                {{h6}}
-              </h1>
-              <h2>
-                {{h2_6}}
-              </h2>
-              <p>
-                {{p6}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu6"><img src="img/201808211710030268.png"> <br>
+                    <h1>
+                      {{h6}}
+                    </h1>
+                    <h2>
+                      {{h2_6}}
+                    </h2>
+                    <p>
+                      {{p6}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu7"><img src="img/201808211710421987.png"> <br>
-              <h1>
-                {{h7}}
-              </h1>
-              <h2>
-                {{h2_7}}
-              </h2>
-              <p>
-                {{p7}}
-              </p>
-              <i>READ MORE</i> </a></li>
+                  <li class="cur"><a class="tanchu7"><img src="img/201808211710421987.png"> <br>
+                    <h1>
+                      {{h7}}
+                    </h1>
+                    <h2>
+                      {{h2_7}}
+                    </h2>
+                    <p>
+                      {{p7}}
+                    </p>
+                    <i>READ MORE</i> </a></li>
 
-            <li><a class="tanchu8"><img src="img/201808211711219643.png"> <br>
-              <h1>
-                {{h8}}
-              </h1>
-              <h2>
-                {{h2_8}}
-              </h2>
-              <p>
-                {{p8}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu8"><img src="img/201808211711219643.png"> <br>
+                    <h1>
+                      {{h8}}
+                    </h1>
+                    <h2>
+                      {{h2_8}}
+                    </h2>
+                    <p>
+                      {{p8}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu9"><img src="img/201808211712092455.png"> <br>
-              <h1>
-                {{h9}}
-              </h1>
-              <h2>
-                {{h2_9}}
-              </h2>
-              <p>
-                {{p9}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu9"><img src="img/201808211712092455.png"> <br>
+                    <h1>
+                      {{h9}}
+                    </h1>
+                    <h2>
+                      {{h2_9}}
+                    </h2>
+                    <p>
+                      {{p9}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu10"><img src="img/201812031519109528.png"> <br>
-              <h1>
-                {{h10}}
-              </h1>
-              <h2>
-                {{h2_10}}
-              </h2>
-              <p>
-                {{p10}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu10"><img src="img/201812031519109528.png"> <br>
+                    <h1>
+                      {{h10}}
+                    </h1>
+                    <h2>
+                      {{h2_10}}
+                    </h2>
+                    <p>
+                      {{p10}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu11"><img src="img/201808211714475580.png"> <br>
-              <h1>
-                {{h11}}
-              </h1>
-              <h2>
-                {{h2_11}}
-              </h2>
-              <p>
-                {{p11}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu11"><img src="img/201808211714475580.png"> <br>
+                    <h1>
+                      {{h11}}
+                    </h1>
+                    <h2>
+                      {{h2_11}}
+                    </h2>
+                    <p>
+                      {{p11}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu12"><img src="img/201808211655143393.png"> <br>
-              <h1>
-                {{h12}}
-              </h1>
-              <h2>
-                {{h2_12}}
-              </h2>
-              <p>
-                {{p12}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu12"><img src="img/201808211655143393.png"> <br>
+                    <h1>
+                      {{h12}}
+                    </h1>
+                    <h2>
+                      {{h2_12}}
+                    </h2>
+                    <p>
+                      {{p12}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu13"><img src="img/201812031517326584.png"> <br>
-              <h1>
-                {{h13}}
-              </h1>
-              <h2>
-                {{h2_13}}
-              </h2>
-              <p>
-                {{p13}}
-              </p>
-              <i>{{i}}</i> </a></li>
+                  <li class="cur"><a class="tanchu13"><img src="img/201812031517326584.png"> <br>
+                    <h1>
+                      {{h13}}
+                    </h1>
+                    <h2>
+                      {{h2_13}}
+                    </h2>
+                    <p>
+                      {{p13}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
 
-            <li><a class="tanchu14"><img src="img/201808211659384174.png"> <br>
-              <h1>
-                {{h14}}
-              </h1>
-              <h2>
-                {{h14}}
-              </h2>
-              <p>
-                {{p14}}
-              </p>
-              <i>{{i}}</i> </a></li>
-          </ul>
+                  <li class="cur"><a class="tanchu14"><img src="img/201808211659384174.png"> <br>
+                    <h1>
+                      {{h14}}
+                    </h1>
+                    <h2>
+                      {{h14}}
+                    </h2>
+                    <p>
+                      {{p14}}
+                    </p>
+                    <i>{{i}}</i> </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <script>
         $(document).ready(function() {
           $(".tanchu1").on('click' , function(){
@@ -294,7 +312,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu2").on('click' , function(){
-            popWin.showWin("1000","850","C迷你菠萝包生面团","f2.html");
+            popWin.showWin("1000","850","C迷你菠萝包生面团","public/f3.html");
           });
         });
       </script>
@@ -302,7 +320,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu3").on('click' , function(){
-            popWin.showWin("1000","850","C菠萝包生面团","f3.html");
+            popWin.showWin("1000","850","C菠萝包生面团","public/f4.html");
           });
         });
       </script>
@@ -310,7 +328,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu4").on('click' , function(){
-            popWin.showWin("1000","850","奶油面包生面团","f4.html");
+            popWin.showWin("1000","850","奶油面包生面团","public/f5.html");
           });
         });
       </script>
@@ -318,7 +336,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu5").on('click' , function(){
-            popWin.showWin("1000","850","C肉桂苹果派生面团","f5.html");
+            popWin.showWin("1000","850","C肉桂苹果派生面团","public/f6.html");
           });
         });
       </script>
@@ -326,7 +344,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu6").on('click' , function(){
-            popWin.showWin("1000","850","C红豆面包生面团","f6.html");
+            popWin.showWin("1000","850","C红豆面包生面团","public/f7.html");
           });
         });
       </script>
@@ -334,7 +352,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu7").on('click' , function(){
-            popWin.showWin("1000","850","C核桃面包生面团","f7.html");
+            popWin.showWin("1000","850","C核桃面包生面团","f8.html");
           });
         });
       </script>
@@ -342,7 +360,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu8").on('click' , function(){
-            popWin.showWin("1000","850","C丹麦酥皮四角生面团","f8.html");
+            popWin.showWin("1000","850","C丹麦酥皮四角生面团","f9.html");
           });
         });
       </script>
@@ -350,7 +368,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu9").on('click' , function(){
-            popWin.showWin("1000","850","C丹麦酥皮长条生面团","f9.html");
+            popWin.showWin("1000","850","C丹麦酥皮长条生面团","f10.html");
           });
         });
       </script>
@@ -358,7 +376,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu10").on('click' , function(){
-            popWin.showWin("1000","850","C调理六角面包生面团","f10.html");
+            popWin.showWin("1000","850","C调理六角面包生面团","f1_3.html");
           });
         });
       </script>
@@ -366,7 +384,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu11").on('click' , function(){
-            popWin.showWin("1000","850","C红豆甜甜圈生面团","f11.html");
+            popWin.showWin("1000","850","C红豆甜甜圈生面团","f1_4.html");
           });
         });
       </script>
@@ -374,7 +392,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu12").on('click' , function(){
-            popWin.showWin("1000","850","C甜甜圈面包生面团","f12.html");
+            popWin.showWin("1000","850","C甜甜圈面包生面团","f1_5.html");
           });
         });
       </script>
@@ -382,7 +400,7 @@
       <script>
         $(document).ready(function() {
           $(".tanchu13").on('click' , function(){
-            popWin.showWin("1000","850","C吐司方包面包生面团","f13.html");
+            popWin.showWin("1000","850","C吐司方包面包生面团","f1_6.html");
           });
         });
       </script>
@@ -390,425 +408,10 @@
       <script>
         $(document).ready(function() {
           $(".tanchu14").on('click' , function(){
-            popWin.showWin("1000","850","C新法式生面团","f14.html");
+            popWin.showWin("1000","850","C新法式生面团","f1_7.html");
           });
         });
       </script>
-
-      <div class="h_cp_n_T_li h_cp_n_T_li_1">
-        <div class="marquee1">
-          <ul style="width: 11200px;">
-
-            <li><a class="tanchuA1"><img src="img/201808220913179018.png"> <br>
-              <h1>
-                {{h15}}
-              </h1>
-              <h2>
-                {{h2_15}}
-              </h2>
-              <p>
-                {{p15}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA2"><img src="img/201808220919245112.png"> <br>
-              <h1>
-                {{h16}}
-              </h1>
-              <h2>
-                {{h2_16}}
-              </h2>
-              <p>
-                {{p16}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA3"><img src="img/201808220944518080.png"> <br>
-              <h1>
-                {{h17}}
-              </h1>
-              <h2>
-                {{h2_17}}
-              </h2>
-              <p>
-                {{p17}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA4"><img src="img/201808220920435268.png"> <br>
-              <h1>
-                {{h18}}
-              </h1>
-              <h2>
-                {{h2_18}}
-              </h2>
-              <p>
-                {{p18}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA5"><img src="img/201808220914151518.png"> <br>
-              <h1>
-                {{h19}}
-              </h1>
-              <h2>
-                {{h2_19}}
-              </h2>
-              <p>
-                {{p19}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA6"><img src="img/201808220935466518.png"> <br>
-              <h1>
-                {{h20}}
-              </h1>
-              <h2>
-                {{h2_20}}
-              </h2>
-              <p>
-                {{p20}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA7"><img src="img/201808220936296830.png"> <br>
-              <h1>
-                {{h21}}
-              </h1>
-              <h2>
-                {{h2_21}}
-              </h2>
-              <p>
-                {{p21}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA8"><img src="img/201808220939131049.png"> <br>
-              <h1>
-                {{h22}}
-              </h1>
-              <h2>
-                {{h2_22}}
-              </h2>
-              <p>
-                {{p22}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA9"><img src="img/201808220938206362.png"> <br>
-              <h1>
-                {{h23}}
-              </h1>
-              <h2>
-                {{h2_23}}
-              </h2>
-              <p>
-                {{p23}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA10"><img src="img/201808220939558393.png"> <br>
-              <h1>
-                {{h24}}
-              </h1>
-              <h2>
-                {{h2_24}}
-              </h2>
-              <p>
-                {{p24}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA11"><img src="img/201808220941264018.png"> <br>
-              <h1>
-                {{h25}}
-              </h1>
-              <h2>
-                {{h2_25}}
-              </h2>
-              <p>
-                {{p25}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA12"><img src="img/201808220942368237.png"> <br>
-              <h1>
-                {{h26}}
-              </h1>
-              <h2>
-                {{h2_26}}
-              </h2>
-              <p>
-                {{p26}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA13"><img src="img/201808220943192455.png"> <br>
-              <h1>
-                {{h27}}
-              </h1>
-              <h2>
-                {{h2_27}}
-              </h2>
-              <p>
-                {{p27}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuA14"><img src="img/201808220944017612.png"> <br>
-              <h1>
-                {{h28}}
-              </h1>
-              <h2>
-                {{h2_28}}
-              </h2>
-              <p>
-                {{p28}}
-              </p>
-              <i>{{i}}</i> </a></li>
-          </ul>
-        </div>
-      </div>
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA1").on('click' , function(){
-            popWin.showWin("1000","850","白面包","f15.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA2").on('click' , function(){
-            popWin.showWin("1000","850","法式切片吐司","f16.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA3").on('click' , function(){
-            popWin.showWin("1000","850","小牛角","f17.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA4").on('click' , function(){
-            popWin.showWin("1000","850","C烧成黄油卷","f18.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA5").on('click' , function(){
-            popWin.showWin("1000","850","酵香小主食30个装","f19.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA6").on('click' , function(){
-            popWin.showWin("1000","850","迷你原味饼干12g","f20.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA7").on('click' , function(){
-            popWin.showWin("1000","850","C烧成小球面包","f21.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA8").on('click' , function(){
-            popWin.showWin("1000","850","C烧成碱水面包","f22.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA9").on('click' , function(){
-            popWin.showWin("1000","850","C烧成核桃面包","f23.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA10").on('click' , function(){
-            popWin.showWin("1000","850","C烧成奶油柑橘面包","f24.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA11").on('click' , function(){
-            popWin.showWin("1000","850","js小苹果派","f25.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA12").on('click' , function(){
-            popWin.showWin("1000","850","C烧成迷你苹果奶油面包","f26.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA13").on('click' , function(){
-            popWin.showWin("1000","850","C烧成迷你巧克力面包","f27.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuA14").on('click' , function(){
-            popWin.showWin("1000","850","槭树奶油卷面包","f28.html");
-          });
-        });
-      </script>
-
-      <div class="h_cp_n_T_li h_cp_n_T_li_2">
-        <div class="marquee1">
-          <ul style="width: 4800px;">
-
-            <li><a class="tanchuB1"><img src="img/201808211718037455.png"> <br>
-              <h1>
-                {{h29}}
-              </h1>
-              <h2>
-                {{h2_29}}
-              </h2>
-              <p>
-                {{p29}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuB2"><img src="img/201812031521465269.png"> <br>
-              <h1>
-                {{h30}}
-              </h1>
-              <h2>
-                {{h2_30}}
-              </h2>
-              <p>
-                {{p30}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuB3"><img src="img/201812031528068140.png"> <br>
-              <h1>
-                {{h31}}
-              </h1>
-              <h2>
-                {{h2_31}}
-              </h2>
-              <p>
-                {{p31}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuB4"><img src="img/201808211721062299.png"> <br>
-              <h1>
-                {{h32}}
-              </h1>
-              <h2>
-                {{h2_32}}
-              </h2>
-              <p>
-                {{p32}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuB5"><img src="img/201808211722130424.png"> <br>
-              <h1>
-                {{h33}}
-              </h1>
-              <h2>
-                {{h2_33}}
-              </h2>
-              <p>
-                {{p33}}
-              </p>
-              <i>{{i}}</i> </a></li>
-
-            <li><a class="tanchuB6"><img src="img/201808211716464018.png"> <br>
-              <h1>
-                {{h34}}
-              </h1>
-              <h2>
-                {{h2_34}}
-              </h2>
-              <p>
-                {{p34}}
-              </p>
-              <i>{{i}}</i> </a></li>
-          </ul>
-        </div>
-      </div>
-      <script>
-        $(document).ready(function() {
-          $(".tanchuB1").on('click' , function(){
-            popWin.showWin("1000","850","奶酪蛋糕","f29.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuB2").on('click' , function(){
-            popWin.showWin("1000","850","抹茶半熟芝士蛋糕","f30.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuB3").on('click' , function(){
-            popWin.showWin("1000","850","巧克力半熟芝士蛋糕","f31.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuB4").on('click' , function(){
-            popWin.showWin("1000","850","原味半熟芝士蛋糕","f32.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuB5").on('click' , function(){
-            popWin.showWin("1000","850","布朗尼","f33.html");
-          });
-        });
-      </script>
-
-      <script>
-        $(document).ready(function() {
-          $(".tanchuB6").on('click' , function(){
-            popWin.showWin("1000","850","巧克力夹心","f34.html");
-          });
-        });
-      </script>
-
-      <a href="javascript:void(0);" id="goL"><img src="img/h_cp_L.png"></a>
-      <a href="javascript:void(0);" id="goR"><img src="img/h_cp_R.png"></a>
     </div>
   </div>
 
@@ -1044,6 +647,10 @@
       h1_3:"威海佳康食品无染寺樱桃采摘欢乐游（上）"
     }
   })
+</script>
+<script type="text/javascript">
+  //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
+  LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',true,305,1000,5000,3);
 </script>
 </body>
 </html>
